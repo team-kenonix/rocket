@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 59bef207-87c7-42fa-985e-83a93a873b3b)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 118.11 77.47) (size 64.77 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 49b6455a-49cb-40fe-89d0-ce0f6cf282b6)
+    (property "Sheetname" "MAIN" (at 118.11 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MAIN.kicad_sch" (at 118.11 113.6146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "main_control_centor"
+        (path "/59bef207-87c7-42fa-985e-83a93a873b3b" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 215.9 77.47) (size 41.91 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 524ff39e-b895-46a8-968a-84202a1614f1)
+    (property "Sheetname" "POWER" (at 215.9 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "POWER.kicad_sch" (at 215.9 111.0746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "main_control_centor"
+        (path "/59bef207-87c7-42fa-985e-83a93a873b3b" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
